@@ -15,7 +15,8 @@
     "develop": "webpack --watch",
     "build": "webpack",
     "build-prod": "webpack --env mode='production'",
-    "feed": "node dist/index.js"
+    "feed": "node dist/index.js",
+    "watch": "webpack --watch --progress"
   },
   "author": "Ravgeet Dhillon <ravgeetdhillon@gmail.com>",
   "license": "MIT",
